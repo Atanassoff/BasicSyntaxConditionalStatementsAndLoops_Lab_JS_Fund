@@ -1,0 +1,6 @@
+function demo(a, b, c){
+    let name = a;
+    let age = Number(b);
+    let grade = Number(c); 
+    console.log(`Name: ${name}, Age: ${age}, Grade: ${grade.toFixed(2)}`);
+}
