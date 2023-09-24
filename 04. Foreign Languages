@@ -1,0 +1,17 @@
+function demo(input){
+    let land = input;
+    switch(land){
+        case"Spain":
+        case"Argentina":
+        case"Mexico":
+        console.log(`Spanish`)
+        break;
+        case"England":
+        case"USA":
+        console.log(`English`)
+        break;
+        default:
+            console.log(`unknown`)
+            break;
+    }
+}
