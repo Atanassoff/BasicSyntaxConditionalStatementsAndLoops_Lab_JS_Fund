@@ -1,4 +1,0 @@
-function demo(a){
-    let n = a;
-    console.log(n * 2);
-}
